@@ -1,0 +1,10 @@
+[serverinfo]
+bind = ":9999"
+version = 1
+
+[worker]
+job_size = 10000
+worker_size = 5000
+
+[application]
+gin_mode = "debug"

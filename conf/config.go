@@ -13,7 +13,7 @@ var (
 )
 
 func init() {
-	flag.StringVar(&confFile, "configfile", "./conf/config.toml", " set im_proxy config file path")
+	flag.StringVar(&confFile, "configfile", "./conf/config.toml", " set config file path")
 }
 
 type Config struct {
